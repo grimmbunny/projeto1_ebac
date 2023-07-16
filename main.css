@@ -8,18 +8,22 @@ header,
 section h2,
 section h3,
 form button {
-    font-family: 'Bungee', cursive;
-    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
 }
 
-body, input, textarea {
-    font-family: 'Roboto', sans-serif;
+body,
+input,
+textarea {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
 }
 
 header {
     padding: 16px 0;
-    background-color: #182c61;
-    color: #ecf0f1;
+    background-color: #3c9641;
+    color: #fff;
 }
 
 header nav li {
@@ -29,14 +33,32 @@ header nav li {
 }
 
 header nav li a {
-    color: #ecf0f1;
+    color: #fff;
     text-decoration: none;
 }
 
 .container {
-    max-width: 1280px;
+    max-width: 1366px;
     width: 100%;
     margin: 0 auto;
+    padding: 10px 10px;
+}
+
+.ghibli-img {
+    width: 50%;
+    padding: 10px 10px;
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+    border-color: #1b471d;
+    border-spacing: 2px;
+    border-collapse: collapse;
+    padding: 8px 8px;
+    text-align: center;
+
 }
 
 header .container,
@@ -44,43 +66,34 @@ section .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.brands-list img {
-    height: 24px;
-}
-
-.brands-list li {
-    display: inline;
-    margin-right: 8px;
-}
-
-section .container {
     align-items: flex-start;
+}
+
+#filmography {
+    width: 90%;
+    padding: 0% 5%;
 }
 
 section {
     padding: 24px 0;
+    color: #1b471d;
 }
 
 section h2 {
     margin-bottom: 16px;
 }
 
-section {
-    color: #182c61;
-}
-
 section p {
     margin-bottom: 8px;
 }
 
-.store-front {
-    margin-right: 32px;
+section mark {
+    background-color: #1b471d;
+    color: #fff;
 }
 
 .social-links img {
-    height: 24px;
+    height: 60px;
 }
 
 .social-links li {
@@ -120,22 +133,23 @@ section h3 {
 }
 
 form button {
-    background-color: #182c61;
-    color: #ecf0f1;
+    background-color: #3c9641;
+    color: #fff;
     border: none;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color: #324d99;
+    background-color: #1b471d;
 }
 
-input:focus, textarea:focus {
-    outline-color: #182c61;
+input:focus,
+textarea:focus {
+    outline-color: #3c9641;
 }
 
 footer {
-    background-color: #182c61;
-    color: #ecf0f1;
+    background-color: #3c9641;
+    color: #fff;
     padding: 16px 0;
 }
